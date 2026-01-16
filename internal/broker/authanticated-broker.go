@@ -5,8 +5,8 @@ import (
 	"errors"
 	"time"
 
-	"example.com/message-queue/internal/auth"
-	"example.com/message-queue/internal/queue"
+	"github.com/sanke08/in-mem-message-queue/internal/auth"
+	"github.com/sanke08/in-mem-message-queue/internal/queue"
 )
 
 var ErrUnauthorized = errors.New("unauthorized: invalid API key")

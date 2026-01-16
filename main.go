@@ -9,9 +9,9 @@ import (
 	"syscall"
 	"time"
 
-	"example.com/message-queue/internal/auth"
-	"example.com/message-queue/internal/broker"
-	"example.com/message-queue/internal/server"
+	"github.com/sanke08/in-mem-message-queue/internal/auth"
+	"github.com/sanke08/in-mem-message-queue/internal/broker"
+	"github.com/sanke08/in-mem-message-queue/internal/server"
 )
 
 func main() {

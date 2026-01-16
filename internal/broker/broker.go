@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"example.com/message-queue/internal/queue"
+	"github.com/sanke08/in-mem-message-queue/internal/queue"
 )
 
 type Broker struct {

@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strings"
 
-	"example.com/message-queue/internal/broker"
-	"example.com/message-queue/internal/utils"
+	"github.com/sanke08/in-mem-message-queue/internal/broker"
+	"github.com/sanke08/in-mem-message-queue/internal/utils"
 )
 
 type Server struct {
